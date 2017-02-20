@@ -15,20 +15,21 @@
 
 .c-rating__item {
   -webkit-box-flex: 0;
-  -webkit-flex: 0 0 24px;
-      -ms-flex: 0 0 24px;
-          flex: 0 0 24px;
-  height: 24px;
-  width: 24px;
+  -webkit-flex: 0 0 50px;
+      -ms-flex: 0 0 50px;
+          flex: 0 0 50px;
+  height: 50px;
+  width: 50px;
   list-style-type: none;
   overflow: hidden;
   display: inline-block;
   background: url("../img/stars.svg") no-repeat;
   background-position: 0 0;
+  background-size: cover;
   cursor: pointer;
 }
 
 .c-rating__item:hover,
 .c-rating__item.is-active {
-  background-position: -24px 0;
+  background-position: -50px 0;
 }
